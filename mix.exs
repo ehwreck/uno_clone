@@ -7,8 +7,10 @@ defmodule UnoClone.MixProject do
       version: "0.1.0",
       elixir: "~> 1.14",
       description: "A command line application for handling uno cards.",
+      package: package(),
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      source_url: "https://github.com/ehwreck/uno_clone"
     ]
   end
 
@@ -25,4 +27,12 @@ defmodule UnoClone.MixProject do
       {:ex_doc, "~> 0.12"},
     ]
   end
+
+  defp package do
+    [
+      licenses: ["GPL-3.0-only"],
+      links: %{"GitHub" => "https://github.com/ehwreck/uno_clone"}
+    ]
+  end
+
 end
