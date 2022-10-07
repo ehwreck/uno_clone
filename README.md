@@ -1,5 +1,7 @@
 # UnoClone
 
+An uno-like card base command line application written with elixir.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
